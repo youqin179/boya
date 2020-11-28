@@ -1,0 +1,237 @@
+*{
+    padding:0;
+    margin: 0;
+}
+/* 原子类样式开始 */
+.inner{
+    width: 1000px !important;
+    margin: 0 auto !important;
+    overflow: hidden;
+}
+.clear{
+    clear: both !important;
+}
+.nomargin{
+    margin-right: 0 !important;
+}
+/* 原子类样式结束 */
+/* 加入我们-首页的head样式部分开始 */
+.head{
+    width: 100%;
+    height: 79px;
+    overflow: hidden;
+}
+.head .head-inner{
+    
+}
+.head .head-inner .head-logo{
+    float:left;
+    height: 79px;
+    width: 203px
+}
+.head .head-inner .head-logo h1{
+    background: url(../images/images7/xz.png) no-repeat left center;
+    background-position: 0px 0px;
+    width: 203px;
+    height: 44px;
+    font:16px "微软雅黑";
+    text-indent: -999px;
+    margin-top:17.5px;
+}
+.head .head-inner .head-nav{
+    float: right;
+}
+.head .head-inner .head-nav ul{
+    list-style: none;
+}
+.head .head-inner .head-nav ul li{
+    float:left;
+    padding:0px 30px;
+    line-height: 79px; 
+}
+.head .head-inner .head-nav ul li a{
+    text-decoration: none;
+    font:16px "微软雅黑";
+    color:#666666;
+}
+.head .head-inner .head-nav ul li a:hover{
+    color:#4e5dd1;
+}
+.head .head-inner .head-nav ul li:first-child{
+    background: #11B273;
+}
+.head .head-inner .head-nav ul li .font-color{
+    color:#fff;
+    font-weight: bold;
+}
+.head .head-inner .head-nav ul li .font-color:hover{
+    color:#fff;
+}
+/* 加入我们-首页的head样式部分结束 */
+
+/* 加入我们-首页的banner样式部分开始 */
+.banner{
+    background: url(../images/images7/bg.jpg) no-repeat center top;
+    height: 1240px;
+    background-color:#000;
+
+}
+.banner .banner-porducts{
+    overflow: hidden;
+    position: relative
+}
+.banner .banner-porducts .banner-notes{
+    background: url(../images/images7/pcxt.png) no-repeat right bottom;
+    width: 203px;
+    height: 68px;
+    background-position: 0px 0px;
+    position: absolute;
+    top:230px;
+    left: 700px;
+}
+.banner .banner-porducts .porducts{
+    margin-top: 755px;
+}
+.banner .banner-porducts ul{
+    width: 1000px;
+    list-style: none;
+}
+.banner .banner-porducts ul li{
+    float: left;
+    width: 160px; 
+    height: 200px;
+    text-align: center;
+    margin-right: 120px;
+}
+.banner .banner-porducts ul li a{
+    display: block;
+    text-decoration: none;
+}
+.banner .banner-porducts ul li .porducts-img1{
+    display:block;
+    background: url(../images/images7/qiu1.png) no-repeat center top;
+    width: 160px;
+    height: 160px;
+}
+.banner .banner-porducts ul li .porducts-img2{
+    display:block;
+    background: url(../images/images7/qiu2.png) no-repeat center top;
+    width: 160px;
+    height: 160px;
+}
+.banner .banner-porducts ul li .porducts-img3{
+    display:block;
+    background: url(../images/images7/qiu3.png) no-repeat center top;
+    width: 160px;
+    height: 160px;
+}
+.banner .banner-porducts ul li .porducts-img4{
+    display:block;
+    background: url(../images/images7/qiu4.png) no-repeat center top;
+    width: 160px;
+    height: 160px;
+}
+.banner .banner-porducts ul li .porducts-sanjiaoxing1{
+    display: block;
+    border: 5px solid #00B7EE;
+    width: 0px;
+    height: 0px;
+    border-color:#00B7EE #00B7EE transparent transparent;
+    transform: rotate(315deg);
+    margin: 0px 0px 0px 75px;
+}
+.banner .banner-porducts ul li .porducts-sanjiaoxing2{
+    display: block;
+    border: 5px solid #FFC600;
+    width: 0px;
+    height: 0px;
+    border-color:#FFC600 #FFC600 transparent transparent;
+    transform: rotate(315deg);
+    margin: 0px 0px 0px 75px;
+}
+.banner .banner-porducts ul li .porducts-sanjiaoxing3{
+    display: block;
+    border: 5px solid #FE5F4B;
+    width: 0px;
+    height: 0px;
+    border-color:#FE5F4B #FE5F4B transparent transparent;
+    transform: rotate(315deg);
+    margin: 0px 0px 0px 75px;
+}
+.banner .banner-porducts ul li .porducts-sanjiaoxing4{
+    display: block;
+    border: 5px solid #FFC600;
+    width: 0px;
+    height: 0px;
+    border-color:#FFC600 #FFC600 transparent transparent;
+    transform: rotate(315deg);
+    margin: 0px 0px 0px 75px;
+}
+.banner .banner-porducts ul li .porducts-words1{
+    display: block;
+    font:16px/30px "微软雅黑";
+    color:#272676;
+    width: 130px;
+    height: 30px;
+    background-color: #00B7EE;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: -5px;
+}
+.banner .banner-porducts ul li .porducts-words2{
+    display: block;
+    font:16px/30px "微软雅黑";
+    color:#272676;
+    width: 130px;
+    height: 30px;
+    background-color: #FFC600;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: -5px;
+}
+.banner .banner-porducts ul li .porducts-words3{
+    display: block;
+    font:16px/30px "微软雅黑";
+    color:#272676;
+    width: 130px;
+    height: 30px;
+    background-color: #FE5F4B;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: -5px;
+}
+.banner .banner-porducts ul li .porducts-words4{
+    display: block;
+    font:16px/30px "微软雅黑";
+    color:#272676;
+    width: 130px;
+    height: 30px;
+    background-color: #FFC600;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: -5px;
+}
+/* 加入我们-首页的banner样式部分结束 */
+/* 加入我们-首页的页脚样式部分开始 */
+.foot{
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+ }
+ .foot .foot-top{
+     width: 100%;
+    height: 36px;
+    background: #42415E;
+ }
+ .foot .foot-bottom{
+     width: 100%;
+    height: 34px;
+    background: #383753;
+ }
+.foot .foot-bottom .footer-inner span{
+    display: block;
+    font:14px/34px "微软雅黑";
+    color:#7A789B;
+    text-align: center;
+}
+/* 加入我们-首页的页脚样式部分结束 */

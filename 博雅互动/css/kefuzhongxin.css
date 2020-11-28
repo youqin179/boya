@@ -1,0 +1,202 @@
+
+/* 客服中心的banner样式部分开始 */
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner .banner1{
+    background: url(../images/images5/faqbanner.jpg) no-repeat center top;
+    height: 254px;
+}
+/* 客服中心的banner样式部分结束 */
+
+/* 客服中心的content-head样式部分开始 */
+.content-head {
+    width: 100%;
+    overflow: hidden;
+}
+.content-head .header{
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top:30px;
+    border-bottom: 1px solid #C7D6E5;
+}
+.content-head .header .header-left{
+    background: url(../images/images5/location.png) no-repeat;
+    background-position: 0px -193px;
+    padding-left: 34px;
+    color: #444866;
+    font:bold 16px "微软雅黑";
+}
+.content-head .header ul li a{
+    text-decoration: none;
+    color:#000;
+}
+.content-head .header ul{
+    float: right;
+    list-style: none;
+}
+.content-head .header ul li .home{
+    display: block;
+    background: url(../images/images2/home.png) no-repeat;
+    width: 100px;
+    height: 19px;
+    background-position: 0px -7px;
+    padding-left:28px;
+}
+.content-head .header ul li a .home1{
+    display: block;
+    background: url(../images/images2/jt.png) no-repeat;
+    background-position: 5px 1px;
+    padding-left:23px;
+    font-size:12px;
+}
+/* 客服中心的content-head样式部分结束 */
+
+/* 客服中心的content-left/right样式部分开始 */
+.content{
+    overflow: hidden;
+}
+.content .content-top{
+    overflow: hidden;
+    margin-top: 30px;
+}
+.content .content-top ul li{
+      background: #f1f1f1;
+      width: 320px;
+      height: 60px;
+      float: left;
+      padding-top: 90px;
+      text-align: center;
+      margin-left: 20px;
+}
+.content .content-top ul li:first-child{
+      margin-left: 0px;
+}
+.content .content-top ul li .img1{
+    display: inline-block;
+    background: url(../images/images5/faqicon.png) no-repeat;
+    background-position: 0px -13px;
+    width: 40px;
+    height: 45px;
+    margin:-82px 0px 45px 0px;
+}
+.content .content-top ul li .img2{
+    display: inline-block;
+    background: url(../images/images5/faqicon.png) no-repeat;
+    background-position: 1px -214px;
+    width: 60px;
+    height: 45px;
+    margin:-82px 0px 45px 0px;
+}
+.content .content-top ul li .top-wenzi2 .bgtu{
+    display:inline-block;
+    background: url(../images/images5/faq_online.png) no-repeat;
+    background-position: 0px 0px;
+    width: 80px;
+    height: 22px;
+    margin-bottom: -5px;
+}
+.content .content-top ul li .img3{
+    display: inline-block;
+    background: url(../images/images5/faqicon.png) no-repeat;
+    background-position: 0px -145px;
+    width: 40px;
+    height: 45px;
+    margin:-82px 0px 45px 0px;
+}
+.content .content-top ul li .top-wenzi1{
+    display: block;
+    font: 13px "微软雅黑";
+    color: #444866;
+    margin-top:-27px;
+}
+.content .content-top ul li .top-wenzi2{
+    display: block;
+    font: 20px "微软雅黑";
+    color: #444866;
+    margin-top:4px;
+}
+.content .content-top ul li .top-wenzi2-1 a{
+    display: block;
+    font: 20px "微软雅黑";
+    color: #444866;
+    margin-top:4px;
+}
+.content .content-top ul li .top-wenzi2-1 a:hover{
+    text-decoration: #191D3A;
+}
+.title{
+    font-size: 13px;
+    color: #444866;
+    margin-top: 40px;
+}
+.content .content-bottom{
+    margin-top:20px;
+}
+.content .content-bottom ul{
+}
+.content .content-bottom ul li{
+    width: 248px;
+    height: 30px;
+    border: 1px solid #DBE1E7;
+    padding-top: 90px;
+    text-align: center;
+    float: left;
+  
+}
+.content .content-bottom ul li a{
+    width: 248px;
+    height: 120px;
+    display: block;
+    margin-top: -90px;
+    font:13px "微软雅黑";
+    color:#444866;
+}
+.content .content-bottom ul li a:hover{
+    background: #F1F1F1;
+    font:bold 13px "微软雅黑";
+}
+.content .content-bottom ul li a .bottom-img1{
+    display:inline-block;
+    background: url(../images/images5/byaddz.png) no-repeat;
+    background-position: 0px 0px;
+    width:70px;
+    height: 71px;
+    margin: 12px 0px 0px 0px;
+}
+.content .content-bottom ul li a .bottom-img2{
+    display:inline-block;
+    background: url(../images/images5/bya1.png) no-repeat;
+    background-position: 0px 0px;
+    width:70px;
+    height: 71px;
+    margin: 12px 0px 0px 0px;
+}
+.content .content-bottom ul li a .bottom-img3{
+    display:inline-block;
+    background: url(../images/images5/byaxiangq.png) no-repeat;
+    background-position: 0px 0px;
+    width:70px;
+    height: 71px;
+    margin: 12px 0px 0px 0px;
+}
+.content .content-bottom ul li a .bottom-img4{
+    display:inline-block;
+    background: url(../images/images5/byakawux.png) no-repeat;
+    background-position: 0px 0px;
+    width:70px;
+    height: 71px;
+    margin: 12px 0px 0px 0px;
+}
+.content .content-bottom ul li a .bottom-wenzi{
+    display: block;
+  
+}
+.content .content-bottom ul li a .bottom-lastwenzi{
+    display:inline-block;
+    margin-top: 50px;
+}
+/* 客服中心的content-left/right样式部分结束 */
+

@@ -1,0 +1,232 @@
+*{
+    padding:0;
+    margin: 0;
+}
+/* 原子类样式开始 */
+.inner{
+    width: 1000px !important;
+    margin: 0 auto;
+}
+.clear{
+    clear: both !important;
+}
+.nomargin{
+    margin-left:0px !important;
+}
+/* 原子类样式结束 */
+/* 生活在博雅head样式部分开始 */
+.head{
+    width: 100%;
+    height: 79px;
+    overflow: hidden;
+}
+.head .head-inner .head-logo{
+    float:left;
+    height: 79px;
+    width: 203px
+}
+.head .head-inner .head-logo h1{
+    background: url(../images/images7/xz.png) no-repeat left center;
+    background-position: 0px 0px;
+    width: 203px;
+    height: 44px;
+    font:16px "微软雅黑";
+    text-indent: -999px;
+    margin-top:17.5px;
+}
+.head .head-inner .head-nav{
+    float: right;
+}
+.head .head-inner .head-nav ul{
+    list-style: none;
+}
+.head .head-inner .head-nav ul li{
+    float:left;
+    padding:0px 30px;
+    line-height: 79px; 
+}
+.head .head-inner .head-nav ul li a{
+    text-decoration: none;
+    font:16px "微软雅黑";
+    color:#666666;
+}
+.head .head-inner .head-nav ul li a:hover{
+    color:#4e5dd1;
+}
+.head .head-inner .head-nav ul .three-child{
+    background: #11B273;
+}
+.head .head-inner .head-nav ul li .font-color3{
+    color:#fff;
+    font-weight: bold;
+}
+.head .head-inner .head-nav ul li .font-color3:hover{
+    color:#fff;
+}
+/* 生活在博雅head样式部分结束 */
+/* 生活在博雅banner样式部分开始 */ 
+.banner{
+    height: 59px;
+    background: url(../images/images9/banner1.jpg) no-repeat center top;
+    background-color: #4F3E72;
+    padding-top:217px;
+}
+.banner .banner-nav{
+    height: 276px;
+}
+.banner .banner-nav ul{
+    list-style: none;
+    height: 60px;
+    width: 1000px;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+}
+.banner .banner-nav ul li{
+    float:left;
+    width: 500px;
+    text-align: center;
+}
+.banner .banner-nav ul li{
+    text-decoration: none;
+    font:18px/60px "微软雅黑";
+    color:#333333;
+    border-radius: 5px;
+}
+.banner .banner-nav ul li:hover{
+    color:#4e5dd1;
+    cursor: pointer;
+}
+.banner .banner-nav ul .cur{
+    background-color: #11B273;
+    color:#fff;
+}
+.banner .banner-nav ul li .font-one:hover{
+    color:#fff;
+}
+/* 生活在博雅banner样式部分结束 */
+
+/* 生活在博雅content的头部/中间样式部分开始 */
+.content{
+    overflow: hidden;
+    display: none;
+}
+.current{
+    display: block;
+}
+.content-note{
+    overflow: hidden;
+    height: 90px;
+    background-color:#8E96D1;
+    margin-top: 50px;
+}
+.content-note .note{
+    width: 50px;
+    height: 50px;
+    background-color:#8E96D1;
+    float: left;
+    margin: 20px 0px 0px 20px;
+}
+.content-note .note .img{
+    display: block;
+    background: url(../images/images9/xz.png) no-repeat;
+    width: 50px;
+    height: 48px;
+    background-position: 1px -736px;
+}
+.content-note h3{
+    font:bold 24px "微软雅黑";
+    color:#fff;
+    margin-left:100px;
+    margin-top: 10px;
+}
+.content-note .note-wenzi{
+    font:16px "微软雅黑";
+    color:#fff;
+    margin-left:28px;
+}
+.content-center{
+    overflow: hidden;
+    margin-top: 50px;
+}
+.content-center ul{
+    list-style: none;
+    height: 407px;
+}
+.content-center ul li{
+    width: 490px;
+    height: 327px;
+    float: left;
+    margin-left: 20px;
+}
+.content-center ul .center-wenzi1{
+    font:bold 16px "微软雅黑";
+    color:#333333;
+    margin-top: 50px;
+}
+.content-center ul .center-wenzi2{
+    font:16px "微软雅黑";
+    color:#333333;
+    padding-bottom: 15px;
+} 
+.content-center ul .lif1{
+    background: url(../images/images9/life_1.jpg) no-repeat;
+}
+.content-center ul .lif2{
+    background: url(../images/images9/life_2.jpg) no-repeat;
+}
+.content-center ul .lif3{
+    background: url(../images/images9/life_3.jpg) no-repeat;
+}
+.content-center ul .lif4{
+    background: url(../images/images9/life_4.jpg) no-repeat;
+}
+.content-center ul .lif5{
+    background: url(../images/images9/life_5.jpg) no-repeat;
+}
+.content-center ul .lif6{
+    background: url(../images/images9/life_6.jpg) no-repeat;
+}
+.content-center ul .lif7{
+    background: url(../images/images9/life_7.jpg) no-repeat;
+}
+.content-center ul .lif8{
+    background: url(../images/images9/life_8.jpg) no-repeat;
+}
+.content-center ul .lif9{
+    background: url(../images/images9/life_9.jpg) no-repeat;
+}
+.content-center ul .lif10{
+    background: url(../images/images9/life_10.jpg) no-repeat;
+}
+.content-center ul .lif11{
+    background: url(../images/images9/life_11.jpg) no-repeat;
+}
+.content-center ul .lif12{
+    background: url(../images/images9/life_12.jpg) no-repeat;
+}
+.content-center ul .lif13{
+    background: url(../images/images9/life_13.jpg) no-repeat;
+}
+.content-center ul .lif14{
+    background: url(../images/images9/life_14.jpg) no-repeat;
+}
+/* 生活在博雅content的头部/中间样式部分结束 */
+
+/* 生活在博雅页脚样式部分开始 */
+.foot{
+    width: 100%;
+    height: 50px;
+    background: #F6F7FB;
+    margin-top: 180px;
+}
+.foot .foot-inner{
+    height: 50px;
+}
+.foot-inner .last-font{
+    display: block;
+    text-align: center;
+    font:14px/50px "微软雅黑";
+    color:#333;
+
+}
+/* 生活在博雅页脚样式部分结束 */

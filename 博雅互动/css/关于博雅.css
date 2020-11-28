@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin: 0;
+}
+/* 原子类样式开始 */
+.inner{
+    width: 1000px !important;
+    margin: 0 auto;
+}
+.clear{
+    clear: both !important;
+}
+.nomargin{
+    margin-right: 0 !important;
+}
+/* 原子类样式结束 */
+/* 关于博雅的head样式部分开始 */
+.head{
+    width: 100%;
+    height: 79px;
+    overflow: hidden;
+}
+.head .head-inner{
+    
+}
+.head .head-inner .head-logo{
+    float:left;
+    height: 79px;
+    width: 203px
+}
+.head .head-inner .head-logo h1{
+    background: url(../images/images10/xz.png) no-repeat left center;
+    background-position: 0px 0px;
+    width: 203px;
+    height: 44px;
+    font:16px "微软雅黑";
+    text-indent: -999px;
+    margin-top:17.5px;
+}
+.head .head-inner .head-nav{
+    float: right;
+}
+.head .head-inner .head-nav ul{
+    list-style: none;
+}
+.head .head-inner .head-nav ul li{
+    float:left;
+    padding:0px 30px;
+    line-height: 79px; 
+}
+.head .head-inner .head-nav ul li a{
+    text-decoration: none;
+    font:16px "微软雅黑";
+    color:#666666;
+}
+.head .head-inner .head-nav ul li a:hover{
+    color:#4e5dd1;
+}
+.head .head-inner .head-nav ul .four-child{
+    background: #11B273;
+}
+.head .head-inner .head-nav ul li .font-color4{
+    color:#fff;
+    font-weight: bold;
+}
+.head .head-inner .head-nav ul li .font-color4:hover{
+    color:#fff;
+}
+/* 关于博雅的head样式部分结束 */
+/* 生活在博雅banner样式部分开始 */ 
+.banner{
+    height: 59px;
+    background: url(../images/images10/banner1.jpg) no-repeat center top;
+    background-color: #4F3E72;
+    padding-top:217px;
+}
+.banner .banner-nav{
+    height: 276px;
+}
+.banner .banner-nav ul{
+    list-style: none;
+    height: 60px;
+    width: 1000px;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+}
+.banner .banner-nav ul li{
+    float:left;
+    width: 333px;
+    text-align: center;
+    font:18px/60px "微软雅黑";
+    color:#333333;
+}
+.banner .banner-nav ul li:hover{
+     color:#4e5dd1;
+     cursor: pointer;
+}
+.banner .banner-nav ul .cur{
+    background-color: #11B273;
+    border-radius: 5px;
+    color:#fff;
+}
+.banner .banner-nav ul li .font-one{
+    color:#fff;
+}
+.banner .banner-nav ul li .font-one:hover{
+    color:#fff;
+}
+/* 生活在博雅banner样式部分结束 */
+
+/* 关于博雅的content样式部分开始 */
+.content{
+    overflow: hidden;
+    margin-top: 50px;
+    display: none;
+}
+.current{
+    display: block;
+}
+.content p{
+    font:16px "微软雅黑";
+    color:#333333;
+    text-indent: 2em;
+    line-height: 48px;
+}
+.content .content-img{
+    display: block;
+    background: url(../images/images10/about_1.png) no-repeat;
+    width: 892px;
+    height: 168px;
+}
+/* 关于博雅的content样式部分开始 */
+
+/* 关于博雅的页脚样式部分开始 */
+.foot{
+    width: 100%;
+    height: 50px;
+    background: #F6F7FB;
+    margin-top: 180px;
+}
+.foot .foot-inner{
+    height: 50px;
+}
+.foot-inner .last-font{
+    display: block;
+    text-align: center;
+    font:14px/50px "微软雅黑";
+    color:#333;
+
+}
+/* 关于博雅的页脚样式部分结束 */

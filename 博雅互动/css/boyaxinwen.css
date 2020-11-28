@@ -1,0 +1,142 @@
+
+
+/* 博雅游戏的banner样式部分开始 */
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner .banner1{
+    background: url(../images/images3/newsbanner.jpg) no-repeat center top;
+    height: 253px;
+    background-color:#FCF9F2;
+}
+/* 博雅游戏的banner样式部分结束 */
+
+/* 博雅游戏的content-head样式部分开始 */
+.content-head {
+    width: 100%;
+    overflow: hidden;
+}
+.content-head .header{
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top:30px;
+    border-bottom: 1px solid #C7D6E5;
+}
+.content-head .header .header-left{
+    background: url(../images/images3/location.png) no-repeat;
+    background-position: 0px 0px;
+    padding-left: 34px;
+    color: #444866;
+    font:bold 16px "微软雅黑";
+}
+.content-head .header ul li a{
+    text-decoration: none;
+    color:#000;
+}
+.content-head .header ul{
+    float: right;
+    list-style: none;
+}
+.content-head .header ul li .home{
+    display: block;
+    background: url(../images/images2/home.png) no-repeat;
+    width: 100px;
+    height: 19px;
+    background-position: 0px -7px;
+    padding-left:28px;
+}
+.content-head .header ul li a .home1{
+    display: block;
+    background: url(../images/images2/jt.png) no-repeat;
+    background-position: 5px 1px;
+    padding-left:23px;
+    font-size:12px;
+}
+/* 博雅游戏的content-head样式部分结束 */
+
+/* 博雅游戏的content-left/right样式部分开始 */
+.content{
+    overflow: hidden;
+}
+.content .content-left{
+    width:700px;
+    float: left;
+}
+.content .content-right{
+    width:296px;
+    float:left;
+}
+.content .content-left ul{
+    margin-top:20px;
+    display: none;
+}
+.content .content-left .cur{
+    display:block;
+}
+.content .content-left ul li span{
+    display: block;
+    color:#AFCCE5;
+    float: right;
+    font: 13px "w微软雅黑";
+
+}
+.content .content-left ul li{
+    font:bold 13px "微软雅黑";
+    width: 690px;
+    height: 50px;
+}
+.content .content-left ul li a{
+    line-height: 50px;
+    color:#444866;
+}
+.content .content-left ul li a:hover{
+    color:#38B774;
+}
+.content .content-right ul li a .right-wenzi{
+    background: url(../images/images3/JTcopy.png) no-repeat;
+    background-position: 110px 15px;
+    width: 140px;
+    display: block;
+    font:bold 13px "微软雅黑";
+    color:#444866;
+    margin-left: 90px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+.content .content-right ul li a .right-wenzi:hover{
+    color: #38B774;
+}
+.content .content-right ul li a .right-img{
+    background: url(../images/images3/npic1.jpg) no-repeat;
+    background-position: 0px 0px;
+    display: block;
+    width: 230px;
+    height: 134px;
+    margin-left: 33px;
+}
+/* 博雅游戏的content-left/right样式部分结束 */
+
+/* 博雅新闻content-foot样式部分开始 */
+.content-foot ul li{
+    border: 1px solid #a1a2a8;
+    border-radius: 5px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-left:15px;
+    text-align: center;
+    cursor: pointer;
+}
+.content-foot ul li:hover{
+    background: #3F6173;
+}
+.content-foot ul{
+    width: 150px;
+    height: 32px;
+    margin:0 auto;
+    margin-top:20px;
+}
+/* 博雅新闻content-foot样式部分结束 */

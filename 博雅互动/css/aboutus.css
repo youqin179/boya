@@ -1,0 +1,110 @@
+
+/* 关于我们的banner样式部分开始 */
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner .banner1{
+    background: url(../images/images4/aboutbanner.jpg);
+    width: 1680px;
+    height: 253px;
+    background-position: -15px 0px;
+    background-repeat: repeat-x;
+}
+/* 关于我们的banner样式部分结束 */
+
+/* 关于我们content-head样式部分开始 */
+.content-head {
+    width: 100%;
+    overflow: hidden;
+}
+.content-head .header{
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top:30px;
+    border-bottom: 1px solid #C7D6E5;
+}
+.content-head .header .header-left{
+    background: url(../images/images4/location.png) no-repeat;
+    background-position: 0px -50px;
+    padding-left: 34px;
+    color: #444866;
+    font:bold 16px "微软雅黑";
+}
+.content-head .header ul li a{
+    text-decoration: none;
+    color:#000;
+}
+.content-head .header ul{
+    float: right;
+    list-style: none;
+}
+.content-head .header ul li .home{
+    display: block;
+    background: url(../images/images2/home.png) no-repeat;
+    width: 100px;
+    height: 19px;
+    background-position: 0px -7px;
+    padding-left:28px;
+}
+.content-head .header ul li a .home1{
+    display: block;
+    background: url(../images/images2/jt.png) no-repeat;
+    background-position: 5px 1px;
+    padding-left:23px;
+    font-size:12px;
+}
+.content-head .header ul li a{
+    float: left;
+}
+/* 关于我们content-head样式部分结束 */
+
+/* 关于我们content-left/right样式部分开始  */
+.content{
+    overflow: hidden;
+}
+.content .content-left{
+    width: 250px;
+    overflow: hidden;
+    float:left;
+}
+.content .content-left ul li{
+    font:16px "微软雅黑";
+    color: #444866;
+    border-bottom: 1px solid #C7D6E5;
+    width: 229px;
+    height: 60px;
+    cursor: pointer;
+}
+.content .content-left ul li:hover{
+    color: #38B774;
+}
+.content .content-left ul .current{
+    color: #38B774;
+    background: url(../images/images2/JTcopy.png) no-repeat center;
+    background-position: 220px 6px;
+} 
+.content .content-left ul li .china-name{
+    margin-top:20px;
+    display: block;
+}
+/* .content .content-left ul li .english-name{
+    display: block;
+} */
+.content .content-right{
+    float: left;
+    width: 750px;
+    display: none;
+}
+.content .cur{
+    display: block;
+}
+.content .content-right p{
+    font:13px "微软雅黑";
+    color:#444866;
+    text-indent: 2em;
+    line-height: 30px;
+}
+/* 关于我们content-left/right样式部分结束 */
+

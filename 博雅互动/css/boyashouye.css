@@ -1,0 +1,397 @@
+/* 博雅首页banner样式部分开始 */
+.banner{
+    width: 100%;
+    height: 460px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.banner .banner1{
+    width: 8000px;
+    height: 460px;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.banner .banner1 ul{
+    list-style: none;
+}
+.banner .banner1 ul li{
+    width: 1734px;
+    height: 460px;
+    float: left;
+}
+.banner .banner1 ul .one{
+    background: url(../images/images1/bannertwo.jpg) no-repeat;
+    background-position: -186px 0px;
+    height: 460px;
+    background-color:#62C6EA; 
+}
+.banner .banner1 ul .two{
+    background: url(../images/images1/probannerthree.jpg) no-repeat center top;
+    height: 460px;
+    background-color:#62C6EA; 
+    background-position: -186px 0px;
+}
+.banner .banner1 ul .three{
+    background: url(../images/images1/bannerfour.jpg) no-repeat center top;
+    height: 460px;
+    background-color:#62C6EA; 
+    background-position: -186px 0px;
+}
+.banner .drop{
+    position: absolute;
+    left:46%;
+    bottom: 10px;
+}
+.banner .drop ul li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: rgb(206, 202, 202);
+    float:left;
+    list-style: none;
+    margin-left:5px;
+    cursor: pointer;
+}
+.banner .drop ul li:hover{
+    background-color: #fff;
+}
+.banner .drop ul .cur{
+    background-color: #fff;
+}
+.clear{
+    clear:both;
+}
+/* 博雅首页banner样式部分结束 */
+
+/* 博雅首页game-explain部分开始 */
+.game-explain{
+    width: 1000px;
+    height: 245px;
+    margin-top: 52px;
+    margin-left:20%;
+    /* overflow: hidden; */
+    position: relative;
+}
+.game-explain .explain{
+    width: 10000px;
+    margin: 0 auto;
+    height: 200px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.game-explain .explain ul{
+    width:1000px;
+    height: 200px;
+    float:left;
+}
+.game-explain .explain ul li a{
+    text-decoration: none;
+    display: block;
+}
+.game-explain .explain ul li:hover{
+    color:#ffffff;
+    background: #38B774;
+}
+.game-explain .explain ul li:hover .chinese-name{
+    color:#ffffff;
+}
+.game-explain .explain ul li:hover .english-name{
+    color:#ffffff;
+    background: url(../images/images1/jt2.png) no-repeat center right;
+}
+.game-explain ul li{
+    float:left;
+    list-style: none;
+    margin-right:42px;
+    width:218px;
+    height: 140px;
+    padding-top:58px;
+    text-align: center;
+    background: #ffffff;
+}
+.game-explain .explain ul li .p1{
+    display: block;
+    background: url(../images/images1/scmj.png) no-repeat;
+    width: 218px;
+    height: 200px;
+    margin-top:-59px;
+}
+.game-explain .explain ul .p2{
+    background: url(../images/images1/scqp.png) no-repeat;
+    width: 218px;
+    height: 130px;
+    display: block;
+    margin-top:-59px;
+}
+.game-explain .explain ul .p3{
+    background: url(../images/images1/ermj.png) no-repeat;
+    width: 218px;
+    height: 130px;
+    display: block;
+    margin-top:-59px;
+}
+.game-explain .explain ul .p4{
+    background: url(../images/images1/cctgd.png) no-repeat;
+    width: 218px;
+    height: 130px;
+    display: block;
+    margin-top:-59px;
+}
+.game-explain .explain ul .p5{
+    background: url(../images/images1/ddz_gys.jpg) no-repeat;
+    width: 218px;
+    height: 130px;
+    display: block;
+    margin-top:-59px;
+}
+.game-explain .explain ul .p6{
+    background: url(../images/images1/gamepic10.jpg) no-repeat;
+    width: 218px;
+    height: 130px;
+    display: block;
+    margin-top:-59px;
+}
+.game-explain .explain ul .p7{
+    background: url(../images/images1/ermj.png) no-repeat;
+    width: 218px;
+    height: 130px;
+    display: block;
+    margin-top:-59px;
+}
+.game-explain .explain ul .p8{
+    background: url(../images/images1/yngxs.png) no-repeat;
+    width: 218px;
+    height: 130px;
+    display: block;
+    margin-top:-59px;
+}
+.game-explain .explain ul .p9{
+    background: url(../images/images1/cdmjcf.png) no-repeat;
+    width: 218px;
+    height: 130px;
+    display: block;
+    margin-top:-59px;
+}
+.game-explain .explain ul .p10{
+    background: url(../images/images1/cdmjgyshg.png) no-repeat;
+    width: 218px;
+    height: 130px;
+    display: block;
+    margin-top:-59px;
+}
+.game-explain .explain ul .p11{
+    background: url(../images/images1/scqp.png) no-repeat;
+    width: 218px;
+    height: 130px;
+    display: block;
+    margin-top:-59px;
+}
+.game-explain .explain ul .p12{
+    background: url(../images/images1/xq_gys.jpg) no-repeat;
+    width: 218px;
+    height: 130px;
+    display: block;
+    margin-top:-59px;
+}
+.game-explain .explain ul .p13{
+    background: url(../images/images1/yngxs.png) no-repeat;
+    width: 218px;
+    height: 130px;
+    display: block;
+    margin-top:-59px;
+}
+.game-explain .explain ul .p14{
+    background: url(../images/images1/scmj.png) no-repeat;
+    width: 218px;
+    height: 130px;
+    display: block;
+    margin-top:-59px;
+}
+.game-explain .explain ul .p15{
+    background: url(../images/images1/ddz_gys.jpg) no-repeat;
+    width: 218px;
+    height: 130px;
+    display: block;
+    margin-top:-59px;
+}
+.game-explain .explain ul .p16{
+    background: url(../images/images1/yngxs.png) no-repeat;
+    width: 218px;
+    height: 130px;
+    display: block;
+    margin-top:-59px;
+}
+.game-explain .explain ul li .english-name{
+    background: url(../images/images1/JT.png) no-repeat center right;
+    color:#38B774;
+    padding-right: 15px;
+} 
+.game-explain .explain  ul li:last-child{
+    margin-right:0;
+}
+.game-explain .explain ul li .chinese-name{
+    display: block;
+    width:218px;
+    color:#444866;
+    padding-top:143px;
+}
+.game-explain .drop1{
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    border-top: 2px solid #B5C0CB;
+    position: absolute;
+    bottom: -190px;
+}
+.game-explain .drop1 ul{
+    width: 155px;
+    height: 30px;
+    background: #ffffff;
+    margin-left: 400px;
+    margin-top:-14px;
+}
+.game-explain .drop1 ul li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #B5C0CB;
+    float:left;
+    list-style: none;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 15px;
+}
+.game-explain .drop1 ul li.current{
+    background-color: #2FBC71;
+}
+.game-explain .drop1 ul li:hover{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #2FBC71;
+    float:left;
+    list-style: none;
+}
+/* 博雅首页game-explain结束 */
+
+/* 博雅首页对外信息开始 */
+.boyainto{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top:50px;
+}
+.boyainto .boyainto-left{
+    width: 500px;
+    float:left;
+}
+.boyainto .boyainto-right{
+    width:500px;
+    float:left;
+}
+.boyainto .boyainto-left{
+    background: url(../images/images1/bynewsbg.jpg) no-repeat;
+    width: 500px;
+    height: 310px;
+}
+.boyainto .boyainto-left span.pag{
+    font:12px/28px "微软雅黑";
+    color:#30BD72;
+    border: 1px solid #33B972;
+    width: 66px;
+    height: 28px;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    margin: 41px 0px 0px 216px;
+}
+.boyainto .boyainto-left span.pag:hover{
+    background: #33B972;
+    color:#ffffff;
+}
+.boyainto .boyainto-left ul{
+    margin-top:39px;
+    margin-left:20px;
+    list-style: none;
+}
+.boyainto .boyainto-left ul li{
+    border-bottom: 1px solid #DBE1E7;
+    height: 49px;
+    width: 460px;
+}
+.boyainto .boyainto-left ul li a{
+    font:12px/49px "微软雅黑";
+    color:#444866;
+    text-decoration: none;
+    width: 460px;
+    height: 49px;
+    display: block;
+}
+.boyainto .boyainto-left ul li a:hover{
+    color:#30BD72;
+}
+.boyainto .boyainto-left ul li .color{
+    color:#B6BED8;
+}
+.boyainto .boyainto-right{
+    background: url(../images/images1/byhrbg3.jpg) no-repeat;
+    width: 500px;
+    height: 310px;
+}
+.boyainto .boyainto-right .zhaoping{
+    font:bold 28px "微软雅黑";
+    color:#ffffff;
+    display: block;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.boyainto .boyainto-right .zhaoping1{
+    font:bold 12px "微软雅黑";
+    color:#ffffff;
+    display: block;
+    margin-left: 80px;
+}
+.boyainto .boyainto-right span.pag1{
+    font:12px/28px "微软雅黑";
+    color:#ffffff;
+    border: 1px solid #ffffff;
+    width: 66px;
+    height: 28px;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    margin: -53px 0px 0px 220px;
+}
+.boyainto .boyainto-right span.pag1:hover{
+    background: #ffffff;
+    color:#33B972;
+}
+.boyainto .boyainto-right dl{
+    margin-top:50px;
+}
+.boyainto .boyainto-right dl{
+    margin-top:40px;
+    margin-left:30px;
+    list-style: none;
+}
+.boyainto .boyainto-right dl dt a{
+    font:bold 12px "微软雅黑";
+    color:#fff;
+    text-decoration: none;
+}
+.boyainto .boyainto-right dl dd{
+    border-bottom: 1px solid #DBE1E7;
+    height: 38px;
+    width: 305px;
+    font:12px/38px "微软雅黑";
+}
+.boyainto .boyainto-right dl dd a{
+    text-decoration: none;
+    width: 460px;
+    height: 49px;
+    display: block;
+    color:#ffffff;
+}
+/* 博雅首页对外信息结束 */

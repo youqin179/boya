@@ -1,0 +1,143 @@
+
+/* 加入我们的banner样式部分开始 */
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner .banner1{
+    background: url(../images/images6/hrbanner.jpg) no-repeat center top;
+    background-color: #17A3D8;
+    height: 515px;
+}
+/* 加入我们的banner样式部分结束 */
+
+/* 加入我们的content样式部分开始 */
+.content {
+   overflow: hidden;
+   margin-top: 50px;
+   padding-top: 30px;
+}
+.content .content-top{
+    background: url(../images/images6/hrtitle.png) no-repeat center top;
+    width:584px;
+    height:88px;
+    margin: 0 auto;
+}
+.content .content-bottom{
+    width: 1000px;
+    margin-top: 50px;
+}
+.content .content-bottom ul{
+    float: left;
+    width: 333px;
+    height: 260px;
+    background: #33B972;
+}
+.content .content-bottom .boximg1-1{
+    display: block;
+    background: #50CC8A url(../images/images6/zp1.png) no-repeat;
+    width: 333px;
+    height: 75px;
+    background-position: 20px 15px;
+}
+.content .content-bottom ul li a{
+    display: block;
+     font:12px "微软雅黑";
+     color:#FFFFFF;
+}
+.content .content-bottom ul li a:hover{
+    color:#D7BA7D;
+}
+.content .content-bottom ul li{
+    width: 320px;
+    height: 10px;
+    margin: 18px 0px 0px 0px;
+}
+.content .content-bottom ul li .yuan{
+    display: block;
+    width: 3px;
+    height: 3px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    float: left;
+    margin: 6px 12px;
+}
+.content .content-bottom ul a .boximg1-2{
+    display: block;
+    background: url(../images/images6/arrow_hover.png) no-repeat;
+    background-position: 40px 4px;
+    width:56px;
+    height: 25px;
+    margin:75px 13px;
+    float: right;
+    color: #ffffff;
+    font-size:12px;
+}
+.content .content-bottom .shixizhaoping{
+    background: #F2A536;
+}
+.content .content-bottom .boximg2-1{
+    display: block;
+background: #FCB44B url(../images/images6/zp5.png) no-repeat;
+    width: 333px;
+    height: 75px;
+    background-position: 20px 15px;
+}
+.content .content-bottom .shixizhaoping .shixizhaoping-wenzi a{
+    font:bold 16px "微软雅黑";
+    color: #fff;
+    margin-left: 10px;
+}
+.content .content-bottom .shixizhaoping .shixizhaoping-wenzi a:hover{
+    color:#fff;
+}
+.content .content-bottom .shixizhaoping .shixizhaoping-wenzi2 a{
+     font:12px "微软雅黑";
+     color: #fff;
+     margin-left: 10px;
+}
+.content .content-bottom .shixizhaoping .shixizhaoping-wenzi2 a:hover{
+     color:#fff;
+}
+.content .content-bottom ul a .boximg2-2{
+    display: block;
+    background: url(../images/images6/arrow_hover.png) no-repeat;
+    background-position: 40px 4px;
+    width:56px;
+    height: 25px;
+    margin:105px 13px;
+    float: right;
+    color: #ffffff;
+    font-size:12px;
+}
+.content .content-bottom .rencaiboya{
+    background: #46B6F6;
+}
+.content .content-bottom .boximg3-1{
+    display: block;
+background: #6AC9FF url(../images/images6/zp3.png) no-repeat;
+    width: 333px;
+    height: 75px;
+    background-position: 20px 15px;
+}
+.content .content-bottom .rencaiboya .rencaiboya-wenzi{
+    width: 100px;
+    height: 10px;
+    float:left;
+    font: 12px "微软雅黑";
+    color:#fff;
+    margin-left:10px;
+}
+.content .content-bottom ul a .boximg3-2{
+    display: block;
+    background: url(../images/images6/arrow_hover.png) no-repeat;
+    background-position: 40px 4px;
+    width:56px;
+    height: 25px;
+    margin:105px 13px;
+    float: right;
+    color: #ffffff;
+    font-size:12px;
+}
+/* 加入我们的content样式部分结束 */
+

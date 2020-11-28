@@ -1,0 +1,243 @@
+/* 博雅游戏的content-head部分开始 */
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner .banner1{
+    background: url(../images/images2/banner.png) no-repeat center top;
+    height: 253px;
+    background-color:#0733AC;
+ 
+
+}
+.content-head {  
+    width: 100%;
+    overflow: hidden;
+}
+.content-head .header{
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top:30px;
+    border-bottom: 1px solid #C7D6E5;
+}
+.content-head .header .header-left{
+    background: url(../images/images2/game.png) no-repeat;
+    background-position: 0px -7px;
+    padding-left: 34px;
+    color: #444866;
+    font:bold 16px "微软雅黑";
+
+}
+.content-head .header ul li a{
+    text-decoration: none;
+    color:#000;
+}
+.content-head .header ul{
+    float: right;
+    list-style: none;
+}
+.content-head .header ul li .home{
+    display: block;
+    background: url(../images/images2/home.png) no-repeat;
+    width: 100px;
+    height: 19px;
+    background-position: 0px -5px;
+    padding-left:28px;
+}
+.content-head .header ul li a .home1{
+    display: block;
+    background: url(../images/images2/jt.png) no-repeat;
+    background-position: 5px 3px;
+    padding-left:23px;
+}
+/* 博雅游戏的content-head部分结束 */
+
+/* 博雅游戏的content-left/right部分开始 */
+.content{
+    width: 1000px;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.content .content-left{
+    float:left;
+    width:197px;
+}
+.content .content-left ul li{
+    width: 198px;
+    height: 80px;
+    border-bottom: 1px solid #818496;
+    cursor: pointer;
+}
+.content .content-left ul .cur{
+    color:#38B774;
+    background: url(../images/images2/JTcopy.png) no-repeat center;
+    background-position: 180px 27px;
+}
+.content .content-left ul li:hover{
+    color:#38B774;
+}
+.content .content-left ul .w1{
+    padding-left:60px;
+    display: block;
+    width: 137px;
+    line-height: 80px;
+}
+.content .content-left ul .p1{
+    display: block;
+    background: url(../images/images2/pad.png) no-repeat center;
+    width: 35px;
+    height: 80px;  
+    background-position: 0px 18px;
+}
+.content .content-left ul .p1:hover{
+    background-position: -125px 18px;
+}
+.content .content-left ul .p2{
+    display: block;
+    background: url(../images/images2/pad.png) no-repeat center;
+    width: 34px;
+    height: 80px;
+    background-position: -3px -72px;
+}
+.content .content-left ul .p2:hover{        
+    background-position: -123px -72px;
+}
+.content .content-left ul li .p3{
+    display: block;
+    background: url(../images/images2/pad.png) no-repeat center;
+    width: 28px;
+    height: 80px;
+    background-position: 1px -172px;
+}
+.content .content-left ul li .p3:hover{
+    background-position: -120px -172px;
+}
+.content .content-left ul li .p4{
+    display: block;
+    background: url(../images/images2/pad.png) no-repeat center;
+    width: 35px;
+    height: 80px;
+    background-position: 1px -267px;
+}
+.content .content-left ul li .p4:hover{
+    background-position: -119px -267px;
+}
+.content .content-left ul li .p5{
+    display: block;
+    background: url(../images/images2/pad.png) no-repeat center;
+    width: 43px;
+    height: 80px;
+    background-position: 1px -476px;
+}
+.content .content-left ul li .p5:hover{
+    background-position: -119px -476px;
+}
+.content .content-right{
+    float:left;
+    width: 778px;
+    padding-bottom: 30px;
+    display: none;
+}
+.content .current{
+    display: block;
+}
+.content .content-right ul li{
+    display: block;
+    color: #444866;
+    background: #F7F7F7;
+    border-radius: 10px;
+    height: 329px;
+}
+.content .content-right ul li:hover{
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+    
+.content .content-right ul li{
+     width: 356px;
+     height: 329px;
+     text-align: center;
+     border-radius: 10px;
+     overflow: hidden;
+     border: 1px solid #CAD6E1;
+}
+.content .content-right ul li .wenzi{
+    font:17px/17px "微软雅黑";
+    float: left;
+    width: 354px;
+    text-align: center;
+    margin-top:20px;
+}
+.content .content-right ul li .wenzi .wenzi1{
+    font:14px/14px "微软雅黑";
+    color:#38B774;
+    background: url(../images/images2/JTcopy.png) no-repeat right; 
+    padding-right: 20px;
+    margin-left:10px;
+}
+.content .content-right ul li .wenzi:hover{
+    color:#38B774;
+}
+.content .content-right ul li .img1{
+    margin-top: 20px;
+}
+.content .content-right ul li img:hover{
+    background: #818496;
+    opacity: 0.8;
+}
+.content .content-right ul li .pic1{
+    display: block;
+    background: url(../images/images2/apple.png) no-repeat;
+    background-position: 24px -2px;
+    line-height: 32px;
+    width: 136px;
+    height: 32px;
+    border-right: 1px solid #C7D6E5;
+    padding-left: 40px;
+    float: left;
+    margin-top: 20px;
+    font: 14px/32px "微软雅黑"；
+}
+.content .content-right ul li .pic1:hover{
+    color:#38B774;
+}
+.content .content-right ul li .pic2{
+    display: block;
+    background: url(../images/images2/ewm.png) no-repeat;
+    background-position: 25px 0px;
+    width: 136px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 40px;
+    float: left;
+    margin-top: 20px;
+    position: relative;
+}
+.content .content-right ul li .pic2:hover{
+    color:#38B774;
+}
+.content .content-right ul li .pic2 i{
+    position: absolute;
+    top:-32px;
+    left:33px;
+    width:0px;
+    height: 0px;
+    border:8px solid #fff;
+    border-color: #fff #fff transparent transparent;
+    transform: rotate(135deg);
+}
+.content .content-right ul li .pic2 .big-pic2{
+    position: absolute;
+    top:-138px;
+    left:-20px;
+}
+.content .content-right ul{
+    float: left;
+    margin: 30px 0px 0px 30px;
+}
+.content .content-right .nomargin{
+    margin-top: none;
+}
+
+/* 博雅游戏的content-left/right部分结束 */
